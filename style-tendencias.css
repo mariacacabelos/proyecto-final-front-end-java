@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#tendencias
+{
+    text-align: center;
+    background-color: #181419;
+}
+
+.titulotendencias
+{
+    color: #ffffff;
+}
+
+.tendencias_container{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px 127px;
+    width: 1016px;
+    height: 1740px;
+}
+
+.peli_item{
+
+    display: flex;
+    width: 200px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+}
+
+.pelicula{
+    width: 90%;
+    height: 90%;
+
+    object-fit: cover;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+img:hover{
+
+    filter: blur(4px);
+    transform: scale(0.9);
+
+}
+
+.btnsiguiente{
+    border: 1px solid white;
+    box-sizing: content-box;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #9f3647;
+    color: #ffffff;
+    padding: 16px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+
+.btnanterior{
+    border: 1px solid white;
+    box-sizing: content-box;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #9f3647;
+    color: #ffffff;
+    padding: 16px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+
+button:hover{
+
+    transform: scale(0.9);
+    text-shadow: 0 0 0px rgb(255, 255, 255);
+    box-shadow:0 0 5px #ffffff;
+}
